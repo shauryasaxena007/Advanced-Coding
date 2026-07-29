@@ -54,7 +54,7 @@ int main(){
 // John Mike 500 200
 // Mike John 500 500
 
-3
+//3
 // Ram Shyam 1000 100
 // Shyam Ram 1000 170
 // Aman Ravi 500 200
