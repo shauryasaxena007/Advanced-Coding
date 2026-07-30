@@ -8,6 +8,7 @@ void solve(int index, int n, vector<int>&arr, vector<int>&values, int&count){
 
    if(index == n-1){
       if(arr[index] != arr[index-1]){
+        
           for(int i = 0; i < n; i++){
             cout << arr[i] << " ";
         }
