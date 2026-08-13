@@ -2,16 +2,16 @@
 using namespace std;
 
 int main(){
-    int n;
-    cout<<"Enter the number of elements: ";
-    cin>>n;
+    int m;
+    cout<<"Enter the number: ";
+    cin>>m;
 
     int freq[10] = {0};
 
-    while(n>0){
-        int digit = n%10;
+    while(m>0){
+        int digit = m%10;
         freq[digit]++;
-        n /= 10;
+        m /= 10;
     }
 
     for(int i =0 ; i<10; i++){
