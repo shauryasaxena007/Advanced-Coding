@@ -21,3 +21,4 @@ int main(){
     }
     return 0;
 }
+//frequency of digits in a number

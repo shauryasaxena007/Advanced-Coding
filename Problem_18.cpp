@@ -16,3 +16,4 @@ int main(){
     cout<<"Reversed number: "<<rev<<endl;
     return 0;
 }
+//reverse a number

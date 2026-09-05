@@ -18,3 +18,4 @@ int main(){
     return 0;
     
 }
+//binary to decimal

@@ -29,3 +29,4 @@ int main(){
      }
      return 0;
 }
+//decimal to hexadecimal

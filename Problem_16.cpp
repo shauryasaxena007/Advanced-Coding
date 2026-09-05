@@ -21,3 +21,4 @@ int main(){
     return 0;
 
 }
+//find the missing number in an array of size n-1 containing numbers from 1 to n

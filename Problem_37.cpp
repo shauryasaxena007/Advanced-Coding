@@ -13,16 +13,16 @@ int main() {
         cin >> arr[i];
     }
 
-    int maximum = arr[0];
+    int minimum = arr[0];
 
     for (int i = 1; i < n; i++) {
-        if (arr[i] > maximum) {
-            maximum = arr[i];
+        if (arr[i] < minimum) {
+            minimum = arr[i];
         }
     }
 
-    cout << "Maximum = " << maximum;
+    cout << "Minimum = " << minimum;
 
     return 0;
 }
-//Array Maximum Element
+//Array Minimum Element
