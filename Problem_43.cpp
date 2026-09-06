@@ -8,28 +8,24 @@ int main() {
     cin >> n;
 
     int arr[n];
+    int copyArr[n];
 
     cout << "Enter elements: ";
+
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
 
-    int i = 0;
-    int j = n - 1;
-
-    while (i < j) {
-        swap(arr[i], arr[j]);
-
-        i++;
-        j--;
+    // Copy elements
+    for (int i = 0; i < n; i++) {
+        copyArr[i] = arr[i];
     }
 
-    cout << "Reverse Array: ";
+    cout << "Copied Array: ";
 
     for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
+        cout << copyArr[i] << " ";
     }
 
     return 0;
 }
-//reverse of array elements

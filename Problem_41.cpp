@@ -21,3 +21,4 @@ int main() {
 
     return 0;
 }
+//average of array elements
