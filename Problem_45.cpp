@@ -21,3 +21,4 @@ int main(){
         }
         return 0;
 }
+// find duplicate elements in an array
