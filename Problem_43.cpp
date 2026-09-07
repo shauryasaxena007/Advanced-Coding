@@ -29,3 +29,4 @@ int main() {
 
     return 0;
 }
+// copy array elements from one array to another
