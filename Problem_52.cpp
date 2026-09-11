@@ -15,4 +15,5 @@ int main() {
     cout << "Maximum Sum = " << maxSum;
     return 0;
 }
+//Kadane's Algorithm
 // Output: Maximum Sum from the contiguous subarray is 6 (from subarray [4, -1, 2, 1])
