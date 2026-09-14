@@ -15,3 +15,5 @@ int main(){
     }
     return 0;
 }
+//leader elements 
+//o/p = 2 5 17
