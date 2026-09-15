@@ -33,3 +33,4 @@ int main() {
 
     return 0;
 }
+// This code calculates the product of all elements in an array except for the element at the current index, without using division. It uses two auxiliary arrays to store the products of elements to the left and right of each index, and then combines these products to get the final result. The output for the input array {1, 2, 3, 4} will be "24 12 8 6".
