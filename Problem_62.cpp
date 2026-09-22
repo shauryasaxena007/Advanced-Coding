@@ -28,7 +28,7 @@ int main(){
             cout << "The integer value is: " << value(s[i]) << endl;
         }
     }
-    cout<< ans;
+    cout<< ans<<endl;
     return 0;
     
 }//Roman to integer
