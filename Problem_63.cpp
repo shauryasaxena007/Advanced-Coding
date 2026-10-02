@@ -21,3 +21,4 @@ int main() {
     cout << ans;
     return 0;
 }
+//longest common prefix
