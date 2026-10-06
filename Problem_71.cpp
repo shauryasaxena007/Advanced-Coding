@@ -1,23 +1,16 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[50],n;
-    cout<<"Enter the size of the array: ";
-    cin>>n;
-   
-    cout<<"Enter the elements of the array: ";
-    for(int i=0;i<n;i++){
-        cin>>arr[i];
-    }
-
-     int target;
-    cout<<"Enter the element to be searched: ";
-    cin>>target;
+    int arr[] = {10, 20, 30, 40, 50, 60, 70};
+    int n = 7;
+    int target = 60;
     int left = 0, right = n - 1;
+
     while(left <= right){
         int mid = left + (right - left) / 2;
+
         if(arr[mid] == target){
-            cout<<"Element found at index: "<<mid;
+            cout << "Element found at index: " << mid;
             return 0;
         }
         else if(arr[mid] < target){
@@ -27,6 +20,6 @@ int main(){
             right = mid - 1;
         }
     }
-    cout<<"Element not found";
+    cout << "Element not found";
     return 0;
 }
