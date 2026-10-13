@@ -33,7 +33,7 @@ int search(vector<int>& arr, int target) {
 }
 
 int main() {
-    vector<int> arr = {4, 5, 6, 7, 0, 1, 2};
+    vector<int> arr = {2, 4, 5, 6, 7, 0, 1, 2};
     int target = 0;
 
     cout << search(arr, target);
