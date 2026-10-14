@@ -40,3 +40,4 @@ int main() {
 
     return 0;
 }
+//search in rotated array
