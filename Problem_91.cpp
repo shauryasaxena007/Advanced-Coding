@@ -16,3 +16,4 @@ int main() {
 
     return 0;
 }
+//factorial of a number using recursion
